@@ -1,0 +1,10 @@
+[
+  {
+    "name": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/rustls/rustls-platform-verifier/252e25161a91af476cbea620e29d277592d27ec7/LICENSE-MIT"
+  },
+  {
+    "name": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/rustls/rustls-platform-verifier/252e25161a91af476cbea620e29d277592d27ec7/LICENSE-APACHE"
+  }
+]

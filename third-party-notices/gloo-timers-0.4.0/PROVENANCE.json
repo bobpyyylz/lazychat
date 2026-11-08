@@ -1,0 +1,10 @@
+[
+  {
+    "name": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/rustwasm/gloo/c8feeb18bf5dde6b7aed80c749e1aef89b34fb52/LICENSE-MIT"
+  },
+  {
+    "name": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/rustwasm/gloo/c8feeb18bf5dde6b7aed80c749e1aef89b34fb52/LICENSE-APACHE"
+  }
+]

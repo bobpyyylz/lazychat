@@ -1,0 +1,32 @@
+[package]
+license = "GPL-3.0-only"
+name = "matrix-client"
+version = "1.0.0-rc.1"
+description = "Windows-first Matrix messaging prototype"
+edition = "2024"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
+
+[lib]
+name = "matrix_client_app"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+client-core = { path = "../../../crates/client-core" }
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["sync", "time", "rt-multi-thread", "fs"] }
+tokio-util = "0.7"
+uuid = { version = "1", features = ["v4"] }
+getrandom = "0.3"
+zeroize = "1"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Security_Cryptography", "Win32_Foundation", "Win32_System_Memory"] }
+

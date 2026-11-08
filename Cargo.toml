@@ -1,0 +1,8 @@
+[workspace]
+members = ["crates/client-core", "apps/client/src-tauri"]
+resolver = "3"
+
+[profile.dev]
+debug = 0
+incremental = true
+

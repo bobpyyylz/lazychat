@@ -1,0 +1,15 @@
+.tools/
+target/
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+apps/client/src-tauri/gen/
+artifacts/
+test-results/
+vendor/
+distribution/
+third-party-sources/
+

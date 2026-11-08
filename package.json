@@ -1,0 +1,10 @@
+{
+  "name": "matrix-client-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/windows.ps1 dev",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/windows.ps1 build",
+    "check": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/windows.ps1 check"
+  },
+  "license": "GPL-3.0-only"
+}
